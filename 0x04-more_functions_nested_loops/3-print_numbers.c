@@ -1,7 +1,8 @@
 #include "main.h"
+
 /**
  * print_numbers - ok
- * Return: Return 0
+ * Return: void
  */
 
 void print_numbers(void)
