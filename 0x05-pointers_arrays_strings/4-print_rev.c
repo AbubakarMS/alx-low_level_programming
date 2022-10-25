@@ -8,7 +8,7 @@
 
 void print_env(char *s)
 {
-	int i j;
+	int i, j;
 
 	i = 0;
 	while (s[i] != '\0')

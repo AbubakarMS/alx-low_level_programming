@@ -6,11 +6,13 @@
  * Return: int
  */
 
-void _strlen(char *s)
+int _strlen(char *s)
 {
 	int t = 0;
 
 	for (; *s++;)
+	{
 		t++;
+	}
 	return (t);
 }
