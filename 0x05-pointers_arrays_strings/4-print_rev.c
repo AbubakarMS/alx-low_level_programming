@@ -6,7 +6,7 @@
  * Return: void
  */
 
-void print_env(char *s)
+void print_rev(char *s)
 {
 	int i, j;
 
