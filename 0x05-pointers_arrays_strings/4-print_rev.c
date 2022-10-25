@@ -18,5 +18,5 @@ void print_env(char *s)
 	{
 		_putchar(s[i]);
 	}
-	_putschar('\n');
+	_putchar('\n');
 }
