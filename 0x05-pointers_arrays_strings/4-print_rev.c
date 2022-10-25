@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * print_env - reverse chars
+ * print_rev - reverse chars
  * @s: char
  * Return: void
  */
@@ -16,7 +16,7 @@ void print_rev(char *s)
 
 	for (j = i - 1; j >= 0; j--)
 	{
-		_putchar(s[i]);
+		_putchar(s[j]);
 	}
 	_putchar('\n');
 }
