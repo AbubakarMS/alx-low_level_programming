@@ -16,7 +16,7 @@ void print_env(char *s)
 
 	for (j = i - 1; j >= 0; j--)
 	{
-		_putschar(s[i]);
+		_putchar(s[i]);
 	}
 	_putschar('\n');
 }
