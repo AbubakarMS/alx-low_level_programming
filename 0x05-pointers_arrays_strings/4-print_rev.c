@@ -12,9 +12,9 @@ void print_env(char *s)
 
 	i = 0;
 	while (s[i] != '\0')
-		n++;
+		i++;
 
-	for (j = n - 1; j >= 0; j--)
+	for (j = i - 1; j >= 0; j--)
 	{
 		_putschar(s[i]);
 	}
