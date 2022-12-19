@@ -2,13 +2,13 @@
 
 /**
  * _memcpy - ok
- * @s: ok
- * @b :ok
+ * @dest: ok
+ * @src :ok
  * @n : ok
  * Return: ko
  */
 
-har *_memset(char *s, char b, unsigned int n)
+char *_memcpy(char *dest, char *src, unsigned int n)
 {
 	unsigned int i = 0;
 
