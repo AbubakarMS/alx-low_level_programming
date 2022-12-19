@@ -1,2 +1,4 @@
-Thsi README is on Pointers
+This README is on Pointers
 ARRAYS And Strings
+
+Also, this is a correction. 
